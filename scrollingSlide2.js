@@ -16,6 +16,7 @@ function ScrollingSlide ( object ){
    var maintainSelector            = object.maintainSelector;
    var itemSelector                = object.itemSelector;
    var endScrollingSelector        = object.endScrollingSelector;
+   var windowHeight                = 0;
    var scrollingStatus             = '';
    var responsive                  = object.responsive;
    var scrollingSize               = 0;
